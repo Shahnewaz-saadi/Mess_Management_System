@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="11sp"
+    android:background="@drawable/bg2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:paddingTop="20sp"
+        android:layout_gravity="center"
+        android:text="Meal Chart"
+        android:textColor="#ffffff"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Chowdhuri Bari Pabna"
+        android:textColor="#ffffff"
+        >
+    </TextView>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="     "-->
+<!--        >-->
+<!--    </TextView>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="11sp"
+        android:layout_gravity="center"
+        android:background="#36000000"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="25"
+            >
+
+            <ImageView
+                android:id="@+id/jan"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:layout_weight="10"
+                android:src="@drawable/janu" />
+
+            <TextView
+                    android:layout_weight="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text=" "
+                    >
+                </TextView>
+
+
+            <ImageView
+                android:id="@+id/feb"
+                android:layout_weight="10"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:src="@drawable/feb"
+                >
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="25"
+            >
+
+            <ImageView
+                android:id="@+id/mar"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:layout_weight="10"
+                android:src="@drawable/march" />
+            <TextView
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text=" "
+                >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/apr"
+                android:layout_weight="10"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:src="@drawable/april"
+                >
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="25"
+            >
+
+            <ImageView
+                android:id="@+id/may"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:layout_weight="10"
+                android:src="@drawable/may" />
+            <TextView
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text=" "
+                >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/jun"
+                android:layout_weight="10"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:src="@drawable/june"
+                >
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="25"
+            >
+
+            <ImageView
+                android:id="@+id/jul"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:layout_weight="10"
+                android:src="@drawable/july" />
+
+            <TextView
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text=" "
+                >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/aug"
+                android:layout_weight="10"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:src="@drawable/augu"
+                >
+            </ImageView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="25"
+            >
+
+            <ImageView
+                android:id="@+id/sep"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:layout_weight="10"
+                android:src="@drawable/septe" />
+
+            <TextView
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text=" "
+                >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/oct"
+                android:layout_weight="10"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:src="@drawable/october"
+                >
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="25"
+            >
+
+            <ImageView
+                android:id="@+id/nov"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:layout_weight="10"
+                android:src="@drawable/noveb" />
+
+            <TextView
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text=" "
+                >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/dec"
+                android:layout_weight="10"
+                android:layout_width="180sp"
+                android:layout_height="80sp"
+                android:src="@drawable/december"
+                >
+            </ImageView>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/saadi"
+            android:layout_width="100sp"
+            android:layout_height="80sp"
+            android:layout_gravity="center"
+            android:src="@drawable/saadi"
+            >
+
+        </ImageView>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Developed By"
+        android:textColor="#ffffff">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Shahnewaz Saadi"
+            android:textColor="#ffffff">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
